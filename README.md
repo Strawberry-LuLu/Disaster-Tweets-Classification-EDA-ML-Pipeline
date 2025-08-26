@@ -81,14 +81,28 @@ Disaster          105           318
 ##  Как запустить проект
 
 1. **Установить зависимости:**
-pip install pandas numpy scikit-learn nltk mysql-connector-python sqlalchemy matplotlib seaborn joblib
+git clone https://github.com/ВАШ_ЛОГИН/disaster-tweets-classification.git
+cd disaster-tweets-classification
 
-2. **Установить NLTK данные:**
+2. **Создайте виртуальное окружение:**
+python -m venv venv
+
+3. **Активируйте venv:**
+# Для Windows:
+.\venv\Scripts\activate
+
+# Для Linux/Mac:
+source venv/bin/activate
+
+4. **Установите зависимости:**
+pip install -r requirements.txt
+
+5. **Установить NLTK данные:**
 import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-3. **Запустить основной скрипт:**
+6. **Запустить основной скрипт:**
 python disaster_tweets_pipeline.py
 
 ## Структура проекта
