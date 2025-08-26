@@ -81,7 +81,7 @@ Disaster          105           318
 ##  Как запустить проект
 
 1. **Установить зависимости:**
-git clone https://github.com/ВАШ_ЛОГИН/disaster-tweets-classification.git
+git clone [https://github.com/ВАШ_ЛОГИН/disaster-tweets-classification.git](https://github.com/Strawberry-LuLu/Disaster-Tweets-Classification-EDA-ML-Pipeline.git)
 cd disaster-tweets-classification
 
 2. **Создайте виртуальное окружение:**
