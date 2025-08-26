@@ -72,9 +72,11 @@
 - **F1-score (Disaster):** 0.64
 
 ### Матрица ошибок:
-                Not Disaster    Disaster
-Not Disaster        1607           244
-Disaster            105            318
+```python
+              Not Disaster    Disaster
+Not Disaster      1607          244
+Disaster          105           318
+```
 
 ##  Как запустить проект
 
@@ -91,12 +93,18 @@ python disaster_tweets_pipeline.py
 
 ## Структура проекта
 
-disaster-tweets-classification/
-├── disaster_tweets_pipeline.py  # Основной скрипт
-├── tweets.csv                   # Исходные данные
-├── disaster_tweets_model.pkl    # Обученная модель
-├── tfidf_vectorizer.pkl         # Векторизатор
-└── README.md                    # Документация
+- **disaster-tweets-classification/** - корневая папка проекта
+  - **disaster_tweets_pipeline.py** - основной скрипт пайплайна
+  - **tweets.csv** - исходные данные
+  - **disaster_tweets_model.pkl** - обученная модель
+  - **tfidf_vectorizer.pkl** - векторизатор текста
+  - **plots/** - папка с графиками
+    - target_distribution.png
+    - text_length_comparison.png
+    - text_length_by_class.png
+    - confusion_matrix.png
+    - feature_importance.png
+  - **README.md** - документация
 
 ## Возможности улучшения
 
